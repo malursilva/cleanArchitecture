@@ -3,7 +3,7 @@ import { Either, left, right } from '../shared/either'
 import { InvalidNameError } from './errors/invalid-name-error'
 import { InvalidEmailError } from './errors/invalid-email-error'
 import { Email } from './Email'
-import { Name } from './name'
+import { Name } from './Name'
 
 export class User {
     public readonly email: Email

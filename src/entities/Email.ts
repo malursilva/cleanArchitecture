@@ -12,7 +12,7 @@ export class Email {
     if (Email.validate(email)) {
       return right(new Email(email))
     } else {
-      return left(new InvalidEmailError())
+      return left(new InvalidEmailError(email))
     }
   }
 
